@@ -9,10 +9,11 @@ import { gameStore } from '../state/gameStore';
  */
 
 const CONTACTS: { label: string; url: string; y: number }[] = [
-  { label: 'abraham.neidhardt@proton.me', url: 'mailto:abraham.neidhardt@proton.me', y: 0.12 },
-  { label: 'github.com/IAbrahamI', url: 'https://github.com/IAbrahamI', y: -0.08 },
+  { label: 'Email', url: 'mailto:abraham.neidhardt@proton.me', y: 0.16 },
+  { label: 'Github', url: 'https://github.com/IAbrahamI', y: 0 },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/abraham-neidhardt-59a047445', y: -0.16 },
   // TODO: replace with your real Instagram handle.
-  { label: 'instagram.com/ab_neid_', url: 'https://instagram.com/ab_neid_', y: -0.28 },
+  { label: 'Instagram', url: 'https://instagram.com/ab_neid_', y: -0.32 },
 ];
 
 function ContactLink({ label, url, y }: { label: string; url: string; y: number }) {

@@ -31,7 +31,7 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   { period: '2025 to Present', role: 'BSc Information & Cybersecurity', org: 'Hochschule Luzern',
-    bullets: ['Majoring into cybersecurity: pentesting, secure architecture, cloud and mobile security.', 'In parallel, working 60% at Julius Baer as a Secure Architect and Software Engineer.', 'Continuously building personal projects to deepen my security skills.'] },
+    bullets: ['Majoring into cybersecurity: pentesting, secure architecture, cloud and mobile security.', 'In parallel, working 60% at Julius Baer as an Application Engineer and Security Engineer.', 'Continuously building personal projects to deepen my security skills.'] },
   { period: '2022 to 2024', role: 'Software Engineer', org: 'Julius Baer',
     bullets: ['Developed and monitored new automated Python scripts in Kibana.', 'Managed access rights for all end users and applications.', 'Implemented a new approach to simplify the onboarding of end users.'] },
   { period: '2021 to 2022', role: 'Internship, Software Engineering', org: 'Julius Baer',
@@ -52,8 +52,8 @@ const SKILLS_B = [
 const CONTACT = [
   { label: 'EMAIL', value: 'abraham.neidhardt@proton.me', url: 'mailto:abraham.neidhardt@proton.me' },
   { label: 'GITHUB', value: 'github.com/IAbrahamI', url: GH },
+  { label: 'LINKEDIN', value: 'linkedin.com/in/abraham-neidhardt-59a047445', url: 'https://www.linkedin.com/in/abraham-neidhardt-59a047445' },
   { label: 'INSTAGRAM', value: 'instagram.com/ab_neid_', url: 'https://instagram.com/ab_neid_' },
-  { label: 'WEBSITE', value: 'abraham-neidhardt.com', url: 'https://abraham-neidhardt.com' },
   { label: 'LOCATED', value: 'Switzerland (CET)', url: null as string | null },
 ];
 
@@ -133,7 +133,7 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
         <div className="lp-brand"><span className="lp-brand-dot" />ABRAHAM // NEIDHARDT</div>
         <div className="lp-nav-meta">
           <span className="lp-mt">[SWE_SEC]</span>
-          <span>SOFTWARE ENGINEER / SECURITY</span>
+          <span>APPLICATION & SECURITY ENGINEER</span>
           <span className="lp-mt">SWITZERLAND · CET</span>
         </div>
         <button type="button" className="lp-burger" aria-label="Menu" aria-expanded={menuOpen}
@@ -169,8 +169,8 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
           <h1 className="lp-hero">ABRAHAM<br /><span className="lp-ac">NEIDHARDT</span></h1>
           <div className="lp-hero-grid">
             <div>
-              <p className="lp-lead">Software engineer studying cybersecurity. Building systems in the morning, and learning how to break them in the afternoon.</p>
-              <p className="lp-body">I am a software engineer passionate about modern architecture, agile environments and modern security practices. Currently balancing a 60% engineering role while pursuing a degree in Cybersecurity, I bridge the gap between building scalable software and protecting it. As a native Spanish speaker fluent in English and German, with a working knowledge of French, I bring a global perspective to international teams.</p>
+              <p className="lp-lead">Application and security engineer studying cybersecurity. Building systems in the morning, and learning how to break them in the afternoon.</p>
+              <p className="lp-body">I am an application and security engineer passionate about modern architecture, agile environments and modern security practices. Currently balancing a 60% engineering role while pursuing a degree in Cybersecurity, I bridge the gap between building scalable software and protecting it. As a native Spanish speaker fluent in English and German, with a working knowledge of French, I bring a global perspective to international teams.</p>
               <div className="lp-cta-row">
                 <button type="button" className="lp-cta-primary" onClick={isPC ? onEnter : () => go('work')}>
                   {isPC ? 'SWITCH TO 3D PORTFOLIO →' : 'VIEW PROJECTS →'}
@@ -179,7 +179,7 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
               </div>
             </div>
             <div className="lp-card">
-              {[['ROLE', 'Secure Architect & Software Engineer'], ['STUDYING', 'BSc Information & Cybersecurity'], ['BASED', 'Switzerland'], ['FOCUS', 'Pentesting · Cloud & Mobile Security'], ['LANGUAGES', 'ES · EN · DE · FR']].map(([k, v], i, a) => (
+              {[['ROLE', 'Application Engineer & Security Engineer'], ['STUDYING', 'BSc Information & Cybersecurity'], ['BASED', 'Switzerland'], ['FOCUS', 'Pentesting · Cloud & Mobile Security'], ['LANGUAGES', 'ES · EN · DE · FR']].map(([k, v], i, a) => (
                 <div key={k} className="lp-card-row" style={i === a.length - 1 ? { borderBottom: 'none' } : undefined}>
                   <span className="lp-mt lp-mono">{k}</span><span className="lp-card-val">{v}</span>
                 </div>

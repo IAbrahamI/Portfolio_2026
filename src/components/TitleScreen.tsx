@@ -19,7 +19,7 @@ export function TitleScreen() {
         <p className="title-eyebrow">Interactive 3D Portfolio</p>
         {/* TODO: change to your name / branding */}
         <h1 className="title-name">Abraham Neidhardt</h1>
-        <p className="title-role">Full-Stack Developer</p>
+        <p className="title-role">Application Engineer | Security Engineer</p>
 
         <p className="title-blurb">
           Step inside a playable portfolio. Walk through themed rooms to explore

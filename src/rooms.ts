@@ -132,8 +132,8 @@ export const northHotspots: Hotspot[] = [
     position: [0, 2.5, 10.7], // Obs_Core (the floating central star)
     radius: 0.7,
     title: 'Abraham Neidhardt',
-    subtitle: 'Software Engineer, Cybersecurity Student',
-    body: `"Software engineer studying cybersecurity. Building systems in the morning, and learning how to break them in the afternoon."\n\nI am a software engineer passionate about modern architecture, agile environments, and modern security practices. Currently balancing a 60% engineering role while pursuing a degree in Cybersecurity, I bridge the gap between building scalable software and protecting it.\n\nI thrive in fast-paced, agile workflows where quick adaptation and cross-functional collaboration are key. As a native Spanish speaker fluent in English and German, with a working knowledge of French, I bring a global perspective to international teams and client-facing environments.\n\nOutside of my core work and studies, I focus on staying balanced. Whether that's keeping active through fitness, unwinding with music and gaming, or tinkering with my own personal coding projects.`,
+    subtitle: 'Application Engineer & Security Engineer, Cybersecurity Student',
+    body: `"Application and security engineer studying cybersecurity. Building systems in the morning, and learning how to break them in the afternoon."\n\nI am an engineer passionate about modern architecture, agile environments, and modern security practices. Currently balancing a 60% engineering role while pursuing a degree in Cybersecurity, I bridge the gap between building scalable software and protecting it.\n\nI thrive in fast-paced, agile workflows where quick adaptation and cross-functional collaboration are key. As a native Spanish speaker fluent in English and German, with a working knowledge of French, I bring a global perspective to international teams and client-facing environments.\n\nOutside of my core work and studies, I focus on staying balanced. Whether that's keeping active through fitness, unwinding with music and gaming, or tinkering with my own personal coding projects.`,
   },
   {
     position: [5.14, 2.9, 7.77], // ConstStar_0, earliest
@@ -161,7 +161,7 @@ export const northHotspots: Hotspot[] = [
     radius: 0.5,
     image: '/assets/HSLU.png',
     title: 'Bachelor of Information and Cybersecurity, Hochschule Luzern',
-    body: `2025 to present.\n\nGoal to improve and major into cybersecurity related topics such as pentesting, secure architecture, cloud security and mobile security.\n• Parallel to my studies, I am also continuously working on Julius Baer working 60% of my time as a Secure Architect and Software Engineer.\n• I am also working on my own projects to improve my skills and knowledge in the field of cybersecurity.`,
+    body: `2025 to present.\n\nGoal to improve and major into cybersecurity related topics such as pentesting, secure architecture, cloud security and mobile security.\n• Parallel to my studies, I also work 60% at Julius Baer as an application & security engineer.\n• I am also working on my own projects to improve my skills and knowledge in the field of cybersecurity.`,
   },
 ];
 
