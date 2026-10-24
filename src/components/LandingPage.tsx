@@ -132,7 +132,7 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
       <div className="lp-nav">
         <div className="lp-brand"><span className="lp-brand-dot" />ABRAHAM // NEIDHARDT</div>
         <div className="lp-nav-meta">
-          <span className="lp-mt">[SWE_SEC]</span>
+          <span className="lp-mt">[APP_SEC]</span>
           <span>APPLICATION & SECURITY ENGINEER</span>
           <span className="lp-mt">SWITZERLAND · CET</span>
         </div>
@@ -179,7 +179,7 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
               </div>
             </div>
             <div className="lp-card">
-              {[['ROLE', 'Application Engineer & Security Engineer'], ['STUDYING', 'BSc Information & Cybersecurity'], ['BASED', 'Switzerland'], ['FOCUS', 'Pentesting · Cloud & Mobile Security'], ['LANGUAGES', 'ES · EN · DE · FR']].map(([k, v], i, a) => (
+              {[['ROLE', 'Application & Security Engineer'], ['STUDYING', 'BSc Information & Cybersecurity'], ['BASED', 'Switzerland'], ['FOCUS', 'Pentesting · Cloud & Mobile Security'], ['LANGUAGES', 'ES · EN · DE · FR']].map(([k, v], i, a) => (
                 <div key={k} className="lp-card-row" style={i === a.length - 1 ? { borderBottom: 'none' } : undefined}>
                   <span className="lp-mt lp-mono">{k}</span><span className="lp-card-val">{v}</span>
                 </div>
